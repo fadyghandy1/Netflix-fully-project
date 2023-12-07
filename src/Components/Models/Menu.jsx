@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import ReactDOM from 'react-dom'
-import ram from '../../Assets/Ram.jpeg'
+import fady from '../../Assets/Fady.jpg'
 import { AuthContext } from '../../Contexts/AuthContext'
 
 import '../../Styles/Browse/mobile-menu.css'
@@ -26,9 +26,9 @@ function Menu({ setMenu }) {
         <div className='profile'>
           <div className='profile-data'>
             <div className='avatar'>
-              <img src={ram} alt='ram' />
+              <img src={fady} alt='ram' />
             </div>
-            <h3>Ram</h3>
+            <h3>fady</h3>
           </div>
           <div className='profile-item'>Account</div>
           <div className='profile-item'>Help Cneter</div>

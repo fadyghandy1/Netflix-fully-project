@@ -5,7 +5,7 @@ import { BsPencil } from 'react-icons/bs'
 import { IoMdArrowDropdown } from 'react-icons/io'
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
-import ram from '../../../Assets/Ram.jpeg'
+import fady from '../../../Assets/Fady.jpg'
 import { AuthContext } from '../../../Contexts/AuthContext'
 
 function User() {
@@ -20,7 +20,7 @@ function User() {
   return (
     <div className='user'>
       <div className='icon'>
-        <img src={ram} alt='Ram' />
+        <img src={fady} alt='Ram' />
         <IoMdArrowDropdown size={20} />
       </div>
       <div className='user-popup'>
@@ -32,8 +32,8 @@ function User() {
             })
           }
         >
-          <img src={ram} alt='Ram' />
-          <span>Ram Farid</span>
+          <img src={fady} alt='FADY' />
+          <span>fadyGHAndy</span>
         </div>
         <div className='controls'>
           <div className='control-item'>
