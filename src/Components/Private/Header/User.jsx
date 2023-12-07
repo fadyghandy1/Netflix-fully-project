@@ -27,9 +27,7 @@ function User() {
         <div
           className='user-item'
           onClick={() =>
-            toast.info('انت فيه اهو يسطا', {
-              rtl: true,
-            })
+            toast.info('u are innnn')
           }
         >
           <img src={fady} alt='FADY' />
